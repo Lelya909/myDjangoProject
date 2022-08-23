@@ -1,0 +1,20 @@
+{% extends 'flatpages/default.html' %}
+
+{% block h_content %}
+<h1>{{flatpage.title}}</h1>
+{% endblock h_content %}
+
+
+{% block header_content %}
+<h3> {{flatpage.content}} </h3>
+{% endblock header_content %}
+
+{% block about_content %}
+
+<h4>Наши контакты</h4>
+<ul>
+    <li>Тел: 8 999 99 - 99 - 99 </li>
+    <li>E-mail: example@mail.com</li>
+    <li>Адрес: Бейкер стрит</li>
+</ul>
+{% endblock about_content %}
